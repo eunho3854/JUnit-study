@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookControllerUnitTest.findById_테스스" project="book" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.cos.book.web.BookControllerUnitTest" time="0.171" displayname="BookControllerUnitTest" uniqueid="[engine:junit-jupiter]/[class:com.cos.book.web.BookControllerUnitTest]">
+    <testcase name="findById_테스스" classname="com.cos.book.web.BookControllerUnitTest" time="0.171" displayname="findById_테스스()" uniqueid="[engine:junit-jupiter]/[class:com.cos.book.web.BookControllerUnitTest]/[method:findById_테스스()]"/>
+  </testsuite>
+</testrun>

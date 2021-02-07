@@ -1,0 +1,12 @@
+package com.cos.book.web;
+
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+
+// 단위 테스트 (Controller 관련 로직만 띄우기) Filter, ControllerAdvice
+
+@WebMvcTest
+// @WebMvcTest 내부에 @ExtendWith(SpringExtension.class) 없으면 무조건 설정해줘야 함!
+// spring으로 단위 테스트를 할 수 있게 확장해주는 어노테이션
+public class BookControllerUnitTest {
+
+}

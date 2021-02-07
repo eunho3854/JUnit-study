@@ -1,0 +1,13 @@
+package com.cos.book.service;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+// 단위테스트( Service와 관랸된 애들만 메모리에 띄우면 됨.)
+// 단위테스는 실제 서버에 완벽하게 돈다는 보장은 없음.
+
+@ExtendWith(MockitoExtension.class)
+
+public class BookServiceUnitTest {
+	
+}

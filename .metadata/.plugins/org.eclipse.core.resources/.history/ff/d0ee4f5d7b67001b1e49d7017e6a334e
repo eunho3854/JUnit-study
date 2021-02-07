@@ -1,0 +1,27 @@
+package com.cos.book.web;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.test.web.servlet.MockMvc;
+
+import jdk.internal.org.jline.utils.Log;
+import lombok.extern.slf4j.Slf4j;
+
+// 단위 테스트 (Controller 관련 로직만 띄우기) Filter, ControllerAdvice
+
+//@WebMvcTest 내부에 @ExtendWith(SpringExtension.class) 없으면 무조건 설정해줘야 함!
+//spring으로 단위 테스트를 할 수 있게 확장해주는 어노테이션 (Junit 5에 해당)
+@Slf4j
+@WebMvcTest
+
+public class BookControllerUnitTest {
+
+	@Autowired
+	private MockMvc mockMvc;
+	
+	@Test
+	public void save_테스트() {
+		log.info("sav_테스트() 시작 ==================");
+	}
+}

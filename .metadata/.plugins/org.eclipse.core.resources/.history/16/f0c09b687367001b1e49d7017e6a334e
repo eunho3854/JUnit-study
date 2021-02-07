@@ -1,0 +1,7 @@
+package com.cos.book.web;
+
+// 통합 테스트
+
+public class BookControllerIntegreTest {
+
+}

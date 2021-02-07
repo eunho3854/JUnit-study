@@ -1,0 +1,8 @@
+package com.cos.book.web;
+
+// 통합 테스트 (모든 Bean들을 똑같이 IoC 올리고 테스트하는 것.)
+// 통합 테스트는 실제 서버에 완벽하게 돌아감
+
+public class BookControllerIntegreTest {
+
+}
